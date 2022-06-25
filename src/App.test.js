@@ -4,7 +4,7 @@ import PageNotFound from "./pages/PageNotFound/index.jsx";
 
 test("render home page", () => {
   render(<Home />);
-  const linkElement = screen.getByText(/Home/i);
+  const linkElement = screen.getByText(/item 1/i);
   expect(linkElement).toBeInTheDocument();
 });
 
